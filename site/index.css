@@ -1,9 +1,6 @@
-h1{text-align: center;}
 .container{
     
     display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
     
    
 }
@@ -15,11 +12,9 @@ h1{text-align: center;}
     height:170px;
     border: 1px solid black;
     background-color: blanchedalmond;
-    margin-right: 10px;
 }
 .sec2{
-    margin-left: 10px;
-    margin-right: 20px;
+    
     width:80%;
     height:170px;
     border: 1px solid black;
@@ -35,31 +30,24 @@ h1{text-align: center;}
   
 }
 .span1{background-color: darkgray;
-    width: 72px;
-    position: relative;
-    left: 386px;
-    bottom: 20px;
+    width: 70px;
+    position: static;
     display:block;
     border: 1px solid black;
     font-size: larger;}
 
 .span2{background-color: darkorange;
     width: 65px;
-    position: relative;
-    left: 394px;
-    bottom: 20px;
+    position: static;
+    right: -165px;
     display:block;
     border: 1px solid black;
     font-size: larger;}
 
 .span3{background-color: deepskyblue;
     width: 85px;
-    position: relative;
-    left: 372px;
-    bottom: 20px;
+    position: static;
+    right: -145px;
     display:block;
     border: 1px solid black;
     font-size: larger;}
-
-   
-        
